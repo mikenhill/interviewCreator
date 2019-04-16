@@ -1,0 +1,267 @@
+<submitPage xmlns="http://service.underwriting.webservice.liss.co.uk">
+	<submitPageRequest>
+		<auditData xmlns="http://request.core.webservice.liss.co.uk/xsd">
+			<ghostUserId xsi:nil="true"
+				xmlns="http://domain.core.webservice.liss.co.uk/xsd"/>
+			<pageCode xmlns="http://domain.core.webservice.liss.co.uk/xsd">service</pageCode>
+			<userId xsi:nil="true" xmlns="http://domain.core.webservice.liss.co.uk/xsd"/>
+		</auditData>
+		<interviewToken
+			xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">m3CVzfN6LuzIzgb7R55b</interviewToken>
+		<interviewId xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">8217</interviewId>
+		<lifeNumber xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">1</lifeNumber>
+		<pageNumber xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">8</pageNumber>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>quotebysum</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_QUOTEBY</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">H_EXT_THIRD_PARTY_REF</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_BLANK</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>level</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_TOC_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>12</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_TERM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_YEARS_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>100000</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_SUM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_MB_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_PREM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>yes</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_TL_ESC_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_REMOVE_LIFE_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_TOC_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_TERM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_YEARS_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_SUM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_MB_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_PREM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>yes</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_CI_ESC_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_REMOVE_CI_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_TERM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_YEARS_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_TOC_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_DP_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_DP2_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_MB_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_IP_PREM_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_REMOVE_IP_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_REMOVE_FRACTURE</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_CHILDCI_BLANK</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_CHILDCI_SUM</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_CHILDCI_TEXT</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_REMOVE_CHILDCI</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>yes</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_SELECT_LIFE_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_SELECT_CI_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_SELECT_IP_INSTANCE1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_PA_SELECT_FRACTURE</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>no</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_SELECT_CHILDCI</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>100</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_COMM_INDEM_PCT_1</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value/>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_COMM_INDEMNITY</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>0</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_PRODSEL_COMM_SACRIFICE_PCT</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>N/A</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">H_QD_PRODSEL_FLAG_RECALC</code>
+		</questions>
+		<questions xmlns="http://request.underwriting.webservice.liss.co.uk/xsd">
+			<answers xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">
+				<value>N/A</value>
+			</answers>
+			<code xmlns="http://domain.underwriting.webservice.liss.co.uk/xsd">QD_SAQ</code>
+		</questions>
+	</submitPageRequest>
+</submitPage>
