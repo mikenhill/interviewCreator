@@ -3,7 +3,9 @@ package uk.co.liss.underwriting.gryphon;
 import java.io.IOException;
 import java.io.StringReader;
 import java.io.StringWriter;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -75,6 +77,7 @@ public class InterviewCreator {
 		try {
 			
 			setUp();
+			
 			Map<String, String> mAnswers = new HashMap<String, String>();
 			
 			// create an interview
@@ -490,6 +493,7 @@ public class InterviewCreator {
 		submitPageXml = generateSubmitXml(response, submitPageTemplate, mAnswers);
 		response = submitPageNew(response, submitPageXml);
 		System.out.println("Client details - " + response);
+		refreshCache();
 		
 		
 
@@ -594,15 +598,16 @@ public class InterviewCreator {
 		response = submitPageNew(response, submitPageXml);
 		System.out.println("UW_LINKED - " + response);
 		
-//		//Decision
-//		mAnswers = new HashMap<String, String>();
-//		response = getNextPage();
-//		submitPageXml = generateSubmitXml(response, submitPageTemplate, mAnswers);
-//		response = submitPageNew(response, submitPageXml);
-//		System.out.println("Decision - " + response);
-//		
-//		//Must update cache here
-//		refreshCache();
+		//Decision
+		mAnswers = new HashMap<String, String>();
+		response = getNextPage();
+		submitPageXml = generateSubmitXml(response, submitPageTemplate, mAnswers);
+		System.out.println("submitPageXml - " + submitPageXml);
+		response = submitPageNew(response, submitPageXml);
+		System.out.println("Decision - " + response);
+		
+		//Must update cache here
+		refreshCache();
 		
 		int gg = 0;
 		
