@@ -24,33 +24,15 @@ public class InterviewCreatorController {
 	@Value("${facade.endpoint}")
 	private String facadeEndpoint;
 	
-	@GetMapping("/createInterviewJoint")
-    public String createInterviewJoint(
-    		@RequestParam(name="uwInterviewId", required=true, defaultValue="") String uwInterviewId, 
-    		@RequestParam(name="uwInterviewToken", required=true, defaultValue="") String uwInterviewToken,
-    		@RequestParam(name="uwInterviewIdSa", required=true, defaultValue="") String uwInterviewIdSa, 
-    		@RequestParam(name="uwInterviewTokenSa", required=true, defaultValue="") String uwInterviewTokenSa,
-    		@RequestParam(name="numberOfInterviews", required=false, defaultValue="10") String numberOfInterviews,
-    		Model model) {
-    	
-    	InterviewCreator ic = new InterviewCreator(server_dns, externalToken, facadeEndpoint, rulebookNb, rulebookUw);
-    	String interviewId = ic.processInterviewJoint(uwInterviewId, uwInterviewToken, uwInterviewIdSa, uwInterviewTokenSa);
-    	
-    	//ic.refreshCache();
-    	
-        model.addAttribute("interviewId", interviewId);
-        
-        return "greeting";
-    }
+
 
     @GetMapping("/createInterviews")
-    public String createInterviews(@RequestParam(name="uwInterviewId", required=true, defaultValue="") String uwInterviewId, 
-    					   @RequestParam(name="uwInterviewToken", required=true, defaultValue="") String uwInterviewToken,
-    					   @RequestParam(name="numberOfInterviews", required=false, defaultValue="10") String numberOfInterviews,
+    public String createInterviews(@RequestParam(name="env", required=true) String env, @RequestParam(name="single", required=true) String single, 
+    		@RequestParam(name="spt", required=true) String spt ,
     					   Model model) {
     	
-    	InterviewCreator ic = new InterviewCreator(server_dns, externalToken, facadeEndpoint, rulebookNb, rulebookUw);
-    	String interviewId = ic.processInterview(uwInterviewId, uwInterviewToken);
+    	InterviewCreator ic = new InterviewCreator(server_dns, externalToken, facadeEndpoint, rulebookNb, rulebookUw, env, single, spt);
+    	String interviewId = ic.processInterview();
     	
     	//ic.refreshCache();
     	
@@ -59,17 +41,17 @@ public class InterviewCreatorController {
         return "greeting";
     }
     
-    @GetMapping("/createInterviewUnderwriting")
-    public String createInterviewUnderwriting(Model model) {
-    	
-    	InterviewCreator ic = new InterviewCreator(server_dns, externalToken, facadeEndpoint, rulebookNb, rulebookUw);
-    	String interviewId = ic.createInterviewUnderwriting();
-    	
-    	//ic.refreshCache();
-    	
-        model.addAttribute("interviewId", interviewId);
-        
-        return "createInterviewUnderwriting";
-    }
+//    @GetMapping("/createInterviewUnderwriting")
+//    public String createInterviewUnderwriting(Model model) {
+//    	
+//    	InterviewCreator ic = new InterviewCreator(server_dns, externalToken, facadeEndpoint, rulebookNb, rulebookUw);
+//    	String interviewId = ic.createInterviewUnderwriting();
+//    	
+//    	//ic.refreshCache();
+//    	
+//        model.addAttribute("interviewId", interviewId);
+//        
+//        return "createInterviewUnderwriting";
+//    }
 
 }
